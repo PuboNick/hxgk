@@ -1,0 +1,101 @@
+body {
+  font-family: '微软雅黑', Arial;
+  color: #666;
+  font-size: .9rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  width: 85%;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+.float-right {
+  float: right;
+}
+
+.form-control {
+  padding: .7rem;
+  border: 1px solid #e8e8e8;
+  border-radius: .5rem;
+  width: 20rem;
+  outline: none;
+}
+
+.btn {
+  padding: 0;
+  border: none;
+  outline: none;
+  border-radius: .6rem;
+}
+
+.navbar {
+ width: 100%;
+ background: #4169e1;
+}
+
+.nav {
+  list-style: none;
+  padding: 0 7.25%;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.nav .nav-item {
+  display: inline-block;
+  padding: 1rem 1.6rem;
+  cursor: pointer;
+}
+
+.nav .active {
+  background-color: #555;
+}
+
+.nav .nav-item:hover {
+  background-color: #555;
+}
+
+.dropdown-btn {
+  position: relative;
+}
+
+.dropdown-btn:hover .dropdown-menu{
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  width: 7.1rem;
+  background: #4169e1;
+  position: absolute;
+  text-align: center;
+  font-size: .9rem;
+  margin-top: 1rem;
+  margin-left: -1.5rem;
+  z-index: 1;
+  list-style: none;
+}
+
+.dropdown-item {
+  width: 100%;
+  box-sizing: border-box;
+  padding: .5rem 0;
+  border-bottom: 1px solid #555;
+}
+
+.dropdown-item:hover {
+  background: #4682b4;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: #888;
+}
