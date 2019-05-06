@@ -26,6 +26,7 @@ function show1() {
   img2.style.display = 'none';
   img3.style.display = 'none';
   img4.style.display = 'none';
+  count = 0;
 }
 
 function show4(){
@@ -41,6 +42,7 @@ function show4(){
   img2.style.display = 'none';
   img3.style.display = 'none';
   img1.style.display = 'none';
+  count = 3;
 }
 function show2() {
   btn2.classList.add('btn-active');
@@ -55,6 +57,7 @@ function show2() {
   img1.style.display = 'none';
   img3.style.display = 'none';
   img4.style.display = 'none';
+  count = 1;
 }
 function show3() {
   btn3.classList.add('btn-active');
@@ -69,15 +72,13 @@ function show3() {
   img2.style.display = 'none';
   img1.style.display = 'none';
   img4.style.display = 'none';
+  count = 2;
 }
 btn1.addEventListener('mouseover', show1);
 btn2.addEventListener('mouseover', show2);
 btn3.addEventListener('mouseover', show3);
 btn4.addEventListener('mouseover', show4);
 setInterval(function() {
-  count ++;
+  count === 3 ? count = 0 : count ++;
   methods[count]();
-  if(count === 3) {
-    count = -1;
-  }
 }, 5000);

@@ -1,33 +1,6 @@
-.img-logo {
-  height: 7rem;
-}
-
-.inline-form {
-  line-height: 7rem;
-}
-
-.btn-search {
-  display: inline-block;
-  margin-top: 2.2rem;
-  margin-left: .5rem;
-  height: 2.4rem;
-}
-
-.image-display {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.image-display img{
-  width: 140%;
-  margin-left: -20%;
-  translate: all 3s;
-}
-
 .image-footer {
   position: absolute;
-  bottom: 0;
+  bottom: -.3rem;
   text-align: center;
   width: 100%;
 }
@@ -88,7 +61,121 @@ h6 {
   font-size: 1.2rem;
 }
 
-.flex {
-  display: flex;
+.box {
+  padding: 2rem 0;
 }
 
+.date-box {
+  background: #4682b4;
+  color: #fff;
+  padding: 1rem .8rem;
+  text-align: center;
+  margin: 0.4rem .2rem .5rem 0;
+}
+
+.text-xl {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  color: #888;
+  font-size: .8rem;
+  line-height: 1.8rem;
+}
+
+.link:hover {
+  color: #436eee;
+}
+
+.img-card .img-left {
+  margin-top: 1rem;
+  width: 90%;
+}
+
+.img-content {
+  padding-bottom: 10rem;
+}
+
+.img-text {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: .9rem;
+  box-sizing: border-box;
+}
+
+.img-card:hover .img-text {
+  background-color: #436eee;
+  color: #fff;
+}
+
+@media(min-width: 678px){
+  .image-display {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 36rem;
+  }
+  
+  .image-display img{
+    width: 140%;
+    margin-left: -20%;
+    translate: all 3s;
+  }
+
+  .text-box {
+    padding: 1rem 0;
+  }
+
+  .title {
+    font-size: 1.2rem;
+    color: #444;
+  }
+
+  .pl-2 {
+    padding-left: .5rem;
+  }
+
+  .img-card {
+    width: 25%;
+    margin-top: 5rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 678px){
+ .image-display {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 12rem;
+  }
+  
+  .image-display img{
+    width: 200%;
+    margin-left: -50%;
+    translate: all 3s;
+  }
+
+  .text-box {
+    padding: 0;
+  }
+
+  .title {
+    font-size: 1rem;
+    color: #444;
+  }
+
+  .img-card {
+    width: 100%;
+    margin-top: 5rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
