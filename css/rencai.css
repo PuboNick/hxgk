@@ -1,0 +1,43 @@
+.title {
+  color: #4682b4;
+}
+
+.content-text {
+  margin-bottom: 1rem;
+  display: block;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.bar {
+  width: 100%;
+  text-align: center;
+  padding: 1.2rem 0;
+  font-size: 1.2rem;
+  color: #fff;
+  background: #4682b4;
+}
+
+.text-content {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  line-height: 2rem;
+}
+
+.job-content {
+  text-align: left;
+  padding: 1rem 0;
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-left: 1rem; 
+}
+
+.job-title {
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin: .5rem 0;
+}

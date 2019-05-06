@@ -1,0 +1,29 @@
+.content-list {
+  list-style: none;
+}
+
+.content-list li {
+  clear: both;
+  padding: 1rem 0;
+  cursor: pointer;
+  border-bottom: .05rem dashed #666;
+} 
+
+.list-link:hover {
+  color: #888;
+}
+
+@media(min-width: 678px) {
+  .badge {
+    float: right;
+  }
+}
+
+@media(max-width: 678px) {
+  .badge {
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-top: .5rem;
+  }
+}
